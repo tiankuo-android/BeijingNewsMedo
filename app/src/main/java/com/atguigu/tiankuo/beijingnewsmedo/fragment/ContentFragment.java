@@ -88,7 +88,7 @@ public class ContentFragment extends BaseFragment {
         });
         pagers.get(0).initData();
         //默认选中主页
-        rgMain.check(R.id.rb_home);
+        rgMain.check(R.id.rb_news);
         isEnableSlidingMenu((MainActivity)context, SlidingMenu.TOUCHMODE_NONE);
     }
 
